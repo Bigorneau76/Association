@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@100 & display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+
+
+
+
+body{
+  margin: 8px;
+  padding: 8px;
+  font-family : 'Roboto', sans-serif ;
+}
+
+li a{
+  text-decoration: none;
+}
+
+
+.breadcrumb-dot 
+.breadcrumb-item+
+.breadcrumb-item::before {
+    content: "•";
+    color: #92a7e2;
+
+  }
+
+  .breadcrumb{
+    font-size: 25px;
+  }
+
+  
+  h1, h2, h3, a{
+    font-family : 'MonteCarlo';
+  }
+
+
+  h1{
+    text-align: center;
+  }
+
+  .title-2{
+    display: inline;
+     background-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    transparent 68%,
+    #6fcffb 68%,
+    #6fcffb 95%,
+    transparent 95%
+     );
+     font-size: 40px;
+     margin-bottom: 30px;
+     }
+    
+  

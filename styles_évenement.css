@@ -2,30 +2,61 @@
   box-sizing: border-box;
 }
 @import url('https://fonts.googleapis.com/css2? family= Roboto:wght@100 & display=swap');
+
+
+
+
+
 body{
   margin: 8px;
   padding: 8px;
- 
- 
+  font-family : 'Roboto', sans-serif ;
 }
 
 
-img {
-  width: 260px;
-  height: 230px;
-  display: block;
-  margin:10px;
-  border:solid;
-  border-radius: 15px;
-;
+
+
+
+
+/* ***********Breadcrumb********** */
+ li a{
+  text-decoration: none;
+}
+
+
+.breadcrumb-dot 
+.breadcrumb-item+
+.breadcrumb-item::before {
+    content: "•";
+    color: #92a7e2;
+
+  }
+
+  .breadcrumb{
+    font-size: 25px;
+  }
+
   
-    }
 
 
-    h3{
-      margin-top: 50px;
-      font-family: Arial, Helvetica, sans-serif;
-      animation: apparition 0.8s ease-out;
+
+/* ****************Event layout************ */
+
+img {
+  width: 600px;
+  height: 550px;
+  max-height: 550px;
+  min-height: auto;
+  margin: 20px;
+  border-radius: 20px;
+  border:solid;
+}
+
+
+
+h3{
+ margin-top: 50px;
+animation: apparition 0.8s ease-out;
   }
   
   @keyframes apparition {
@@ -49,3 +80,28 @@ img {
     h1{
       text-align: center;
     }
+
+.Title-2{
+display: inline-block;
+ background-image: linear-gradient(
+to bottom,
+transparent 0%,
+transparent 68%,
+#6fcffb 68%,
+#6fcffb 95%,
+transparent 95%
+ );
+ font-size: 40px;
+ margin-bottom: 30px;
+ }
+
+
+/* 
+    **************Where to find us*********** */
+
+
+    
+
+
+
+    
