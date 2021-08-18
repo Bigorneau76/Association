@@ -70,6 +70,12 @@ nav, li, a{
   
 }
 
+.Box {
+display: flex;
+flex-direction: column;
+justify-content: right;
+align-items: center;
+}
 
 .container{
 	position: relative;
